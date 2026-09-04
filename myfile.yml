@@ -1,2 +1,4 @@
----
-- key:values
+- name: create a file
+  file:
+      path: /home/myAnsible_8am_18Aug/test.txt
+      state: touch
