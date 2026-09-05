@@ -8,10 +8,17 @@
       name: apache2
       state: present
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+      
+>>>>>>> d7e7128007175f2ee816bb92fcb19782b361d1b0
   - name: i want to create a folder
     file:
       state: directory
       path: C:\Users\OMM\OneDrive\Desktop\Bishal\DEVOPS\myAnsible_8AM_18Aug\myfolder
+<<<<<<< HEAD
       
 >>>>>>> 0aff9444e55691e017125c13aff2e44cb1341be9
+=======
+>>>>>>> d7e7128007175f2ee816bb92fcb19782b361d1b0
