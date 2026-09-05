@@ -7,8 +7,8 @@
     apt:
       name: apache2
       state: present
+      
   - name: i want to create a folder
     file:
       state: directory
       path: C:\Users\OMM\OneDrive\Desktop\Bishal\DEVOPS\myAnsible_8AM_18Aug\myfolder
-      
