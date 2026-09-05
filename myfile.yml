@@ -1,5 +1,5 @@
 
   - name: create a file
     file:
-        path: /home/myAnsible_8AM_18Aug/test.txt
+        path: C:\Users\OMM\OneDrive\Desktop\Bishal\DEVOPS\myAnsible_8AM_18Aug\test.txt
         state: touch
