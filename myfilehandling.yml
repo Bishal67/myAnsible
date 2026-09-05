@@ -7,4 +7,9 @@
     apt:
       name: apache2
       state: present
+
+  - name: copy myindex.J2 file into nodes
+    template:
+        src: myindex.J2
+        dest: /var/www/html/index.html
       
