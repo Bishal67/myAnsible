@@ -3,6 +3,6 @@
 # tasks file for mywebrole
 - name: install webserver on debian nodes
   apt:
-    name: {{ mywebserver_var2}}
+    name: {{ mywebserver_var2 }}
     state: present
     notify: restart apache
