@@ -3,5 +3,5 @@
 # handlers file for mywebrole
 - name: restart apache
   service:
-    name: {{ mywebserver_var2}}
+    name: {{ mywebserver_var2 }}
     state: restarted
