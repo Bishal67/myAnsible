@@ -5,4 +5,4 @@
   apt:
     name: "{{mywebserver_var2}}"
     state: present
-    notify: restart apache
+  notify: restart apache
